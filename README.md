@@ -1,47 +1,15 @@
- # An Text-Based Role-Playing Game (RPG), based off of Avatar: The Last Airbender
-
-Users 
- > Jad Mukbel - https://github.com/jmukb001
- > 
- > Pranesh Naagamuthu - https://github.com/Twigs-io
- > 
- > Aaron Lim - https://github.com/DoubleAPowerBox
- > 
- > Donovan Pilcher - https://github.com/Groovyfaun
-
- # Overview of what we are trying to achieve - 
-
- A user will select single player mode or two-player mode.
-
- From there, they will enter their player name, and be asked where both their parents are from, and whether their parents were benders, and if so, what kind.
-
-Using the information entered above, their character’s power will be generated based on the hereditary probability of them being a bender or not. For example, if their mother is a water-bender, and their dad is a fire-bender, there is a 50% chance of their character being either bender. However if their mom is a water-bender, and dad a non-bender, they would have a 50% chance of being a non-bender. 
-
- These steps will be repeated if the user initially selects two-player. If the user selects single-player, they may pick an automatically generated character from the members of Team Avatar, listed below. This will also be the character’s stats if the user enters single mode, and enters any of the names from Team Avatar. 
-
- Aang - Air Bender
- Katara - Water Bender
- Toph - Earth Bender
- Zuko - Fire Bender
- Sokka - Non-Bender
-
- From here. The user will face either Character II or the CPU in a match. It will be similar to rock paper scissors, in the sense that one move will be stronger than another, but can be countered by another. 
-
- We will take more time planning to discuss if sub-bending would take too much time for this project. For example, implementing the ability to utilize ice with water-bending, lava for earth-bending, etc. 
-
- For the CPU we can try and make it so that there are presets to select from such as the people from Avatar, and make their choice selection randomized
-
- # Tools and Technologies
-   We plan to use C++ as out primary coding language and we have not decided on having any tools implemented into it
- # Input/Output
-   The input would be as mentioned before text based, and all of the code will be shown as a text based design
 ______________________________________________________________________________________________________________________________________________________________________
  > As you complete each section you **must** remove the prompt text. Every *turnin* of this project includes points for formatting of this README so keep it clean and keep it up to date. 
  > Prompt text is any lines beginning with "\>"
  > Replace anything between \<...\> with your project specifics and remove angle brackets. For example, you need to name your project and replace the header right below this line with that title (no angle brackets). 
+ 
 # Avatar: The Last Airbender: The Text Based RPG
  
-Authors: [Jad Mukbel](https://github.com/jmukb001), [Pranesh Naagamuthu](https://github.com/Twigs-io), [Aaron Lim](https://github.com/DoubleAPowerBox), [Donovan Pilcher](https://github.com/Groovyfaun)
+Authors: 
+[Jad Mukbel](https://github.com/jmukb001), 
+[Pranesh Naagamuthu](https://github.com/Twigs-io), 
+[Aaron Lim](https://github.com/DoubleAPowerBox), 
+[Donovan Pilcher](https://github.com/Groovyfaun)
 
  > You will be forming a group of **FOUR** students and working on an interesting project. The project has 4 phases, each one with specific requirements. A list of proposed project ideas that have been successful in previous quarters is listed in the project specifications document on Canvas. You can select an idea from the list and start thinking about the features you will implement. If you want to propose your own original idea, you will have to contact your instructor to discuss the project and obtain written permission before you submit your project proposal (Phase 1). The project work should be divided almost equally among team members. You can of course help each other, but it needs to be clear who will be responsible for which features. Additionally, you are expected to follow Scrum patterns, specifically the use of a Scrum (Project) board, Sprints, and Scrum meetings.
 
@@ -52,15 +20,37 @@ Authors: [Jad Mukbel](https://github.com/jmukb001), [Pranesh Naagamuthu](https:/
  > * **Each member of the group must actively participate in the Github Project board, writing unit tests, and reviewing commited code.**
 > * All project phases are to be submitted to this GitHub repository. You should modify this README file to reflect the different phases of the project. In addition, you should regularly hold sprint meetings with your group. You will need to hold two to three scrum/check-in meetings with your lab TA/reader at different times in addition to the final demo.
 
-## Project Description
- > Your project description should summarize the project you are proposing. Be sure to include:
- > * Why is it important or interesting to you?
- > * What languages/tools/technologies do you plan to use? (This list may change over the course of the project)
- > * What will be the input/output of your project?
- > * What are the features that the project provides?
- > This description should be in enough detail that the TA/instructor can determine the complexity of the project and if it is sufficient for the team members to complete in the time allotted. 
- > 
- > You also need to set up an empty project board using GitHub projects (board view). Make sure you add the board under your project repository. You should also have a Product Backlog and In testing columns added.
+### Project Motives
+* Our group decided on making a game based off of Avatar: The Last Airbender as we are all fans of the series and the world it takes place in. We believe if we base our project upon a show we are passionate about, it will help us stay motivated to see it to its completion. That, and we would like to simulate duels between benders to finally, finally answer the question of who is the best character of all.
+
+### Tools and Technologies
+* We plan to use C++ as out primary coding language and we do not plan on having any tools implemented.
+   
+### Input/Output
+* The input would be text-based, and all of the output will be shown as text-based design.
+
+### Overview of what we are trying to achieve - 
+
+A user will select single player mode or two-player mode.
+
+From there, they will enter their player name, and be asked where both their parents are from, and whether their parents were benders, and if so, what kind.
+
+Using the information entered above, their character’s power will be generated based on the hereditary probability of them being a bender or not. For example, if their mother is a water-bender, and their dad is a fire-bender, there is a 50% chance of their character being either bender. However if their mom is a water-bender, and dad a non-bender, they would have a 50% chance of being a non-bender. 
+
+These steps will be repeated if the user initially selects two-player. If the user selects single-player, they may pick an automatically generated character from the members of Team Avatar, listed below. This will also be the character’s stats if the user enters single mode, and enters any of the names from Team Avatar.
+ 
+ * Aang - Air Bender
+ * Katara - Water Bender
+ * Toph - Earth Bender
+ * Zuko - Fire Bender
+ * Sokka - Non-Bender
+ 
+After the user's character has been created, they will face either Character II or the CPU in a match. It will be similar to rock paper scissors or Pokemon, in the sense that one move will be stronger than another, but can be countered by another. 
+
+We will take more time planning to discuss if sub-bending would take too much time for this project. For example, implementing the ability to utilize ice with water-bending, lava for earth-bending, etc. 
+
+ For the CPU we can try and make it so that there are presets to select from such as the people from Avatar, and make their choice selection randomized.
+ 
  > ## Phase II
  > In addition to completing the "Class Diagram" section below, you will need to:
  > * Create an "Epic" (note) for each feature. Place these epics in the `Product Backlog` column
