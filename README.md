@@ -2,8 +2,11 @@
 
 Users 
  > Jad Mukbel - https://github.com/jmukb001
+ > 
  > Pranesh Naagamuthu - https://github.com/Twigs-io
+ > 
  > Aaron Lim - https://github.com/DoubleAPowerBox
+ > 
  > Donovan Pilcher - https://github.com/Groovyfaun
 
  # Overview of what we are trying to achieve - 
