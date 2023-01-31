@@ -6,7 +6,7 @@ Authors:
 [Aaron Lim](https://github.com/DoubleAPowerBox), 
 [Donovan Pilcher](https://github.com/Groovyfaun)
 
-### Project Motives
+## Project Description
 * Our group decided on making a game based off of Avatar: The Last Airbender as we are all fans of the series and the world it takes place in. We believe if we base our project upon a show we are passionate about, it will help us stay motivated to see it to its completion. That, and we would like to simulate duels between benders to finally, finally answer the question of who is the best character of all.
 
 ### Tools and Technologies
